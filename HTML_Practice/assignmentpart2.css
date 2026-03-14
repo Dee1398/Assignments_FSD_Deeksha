@@ -1,0 +1,28 @@
+
+/* Give the h1 header a unique id- “mainTopic” & set its color to blue using the
+selector. */
+#mainTopic{
+    color: brown;
+    font-weight: bold;
+}
+
+/* Qs2. Align all the text in the page to the center using a universal selector. */
+* {
+    text-align: center;
+}
+
+ /* Change the font style of all heading tags in the page to ‘Georgia’ */
+ h1, h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ /* Set the color of all the paragraphs to white & background color to cornflower
+(Without using the element selector- ‘p’ */
+
+/* need to understand about this */
+*:not(p) {
+  background-color: cornflowerblue;
+}
+* {
+  color: white;
+}

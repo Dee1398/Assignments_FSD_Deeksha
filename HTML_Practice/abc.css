@@ -1,0 +1,60 @@
+/* Set the background page to color “wheat”, by us */
+body{
+    background-color: wheat;
+}
+
+/* Change the color of the poem in the page to brown (use the hex code for col */
+p{
+color: #964B00;
+text-align: center;
+}
+
+/* Align all the headings & the poem to the center of the poge. */
+h1, h2, h3, h4 {
+    text-align: center;
+     }
+
+     /* Change the color of the poem to red & the poet’s name to black. */
+     /* /* Set the poem’s line-height to 30px.  */
+     p{
+        color: red;
+        line-height: 30px;
+     }
+     h3{
+        color: black;
+     }
+     /* Change the font of the entire document to the font- Georgia. */
+     body {
+           font-family: Georgia, serif;
+        }
+
+        /* Set the color of the Wikipedia link to green & remove its underline (use the r
+value for color). */
+
+.wiki {
+  color: rgb(0, 128, 0);
+   text-decoration: none; 
+}
+
+/* Change the button background color to white & button text to blueviolet */
+
+.comment_type{
+  background-color: white;
+  color: blueviolet;
+  padding: 10px 20px;
+  border: 1px solid blueviolet;
+   font-size: 16px;
+   border-radius: 5px;
+}
+
+/* What is the hex code for black color? Set the textarea font color to black. */
+.comment_area{
+  color: #000000;
+  
+}
+
+
+/* Underline only the word Ozymandias inside the poem*/ */
+.underlined-word{
+   text-decoration-line: underline;
+}

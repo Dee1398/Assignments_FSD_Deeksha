@@ -1,0 +1,55 @@
+/* Centered Card (Box Model + Margin)
+Create a simple card.
+Requirements:
+
+Page background: #f4f4f4
+Card width: 300px
+Center it horizontally
+Padding: 20px
+White background
+Rounded corners (8px)
+Add subtle shadow
+
+Content inside card:
+Title
+Paragraph
+Button */
+
+/* body{
+    background-color:#f4f4f4;
+    padding: 20px;
+   
+}
+.cli{
+align-items: center;
+padding: 20px;
+box-sizing: border-box;
+background-color: white;
+border-radius: 8px;
+
+} */
+
+
+/* Question 2 – Navigation Bar (Display Inline / Block)
+
+Create a navigation bar.
+
+Requirements:
+Background: black
+Text color: white
+5 menu items
+Remove list bullets
+Display menu items in one line
+Add spacing between items
+On hover → change text color to yellow */
+/* 
+body{
+    background-color: black;
+    color: white;
+}
+.items:hover{
+display: inline; 
+color: yellow;
+
+} */
+
